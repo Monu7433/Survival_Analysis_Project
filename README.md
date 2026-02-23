@@ -1,80 +1,105 @@
-Survival Analysis using METABRIC Breast Cancer Dataset
-Project Overview
+# Survival Analysis using METABRIC Breast Cancer Dataset
 
-This project performs survival analysis using the METABRIC breast cancer dataset to evaluate factors affecting overall survival. Kaplan–Meier method was used to estimate survival probability, and Cox Proportional Hazards model was applied to identify significant prognostic variables.
+## Project Overview
 
-Objectives
+This project performs survival analysis using the METABRIC breast cancer dataset to evaluate factors affecting overall survival. Kaplan–Meier survival curves and Cox Proportional Hazards model were applied to analyze time-to-event data and identify significant prognostic factors.
 
-Estimate overall survival using Kaplan–Meier method
+This project demonstrates practical application of survival analysis methods used in clinical research and biostatistics.
 
-Compare survival between patient groups
+---
 
-Identify risk factors using Cox regression
+## Objectives
 
-Interpret hazard ratios for clinical relevance
+- Estimate survival probability using Kaplan–Meier method
+- Handle censored survival data correctly
+- Compare survival between patient groups
+- Identify significant predictors using Cox regression
+- Interpret hazard ratios for clinical insights
 
-Dataset
+---
 
-Source: METABRIC Breast Cancer Dataset
-Records: 2,509 patients
+## Dataset Information
 
-Variables used:
+Dataset: METABRIC Breast Cancer Dataset  
+Total Patients: 2,509  
 
-Overall Survival Time
+Key Variables Used:
 
-Survival Status (Event/Censored)
+- Overall Survival Time
+- Survival Status (Alive/Dead)
+- Age at Diagnosis
+- Tumor Grade
+- ER Status
+- PR Status
+- HER2 Status
 
-Age
+---
 
-Tumor Grade
+## Methods Used
 
-ER Status
+### Kaplan–Meier Analysis
 
-PR Status
+- Estimated survival probability over time
+- Visualized survival curves
+- Compared survival between groups
 
-HER2 Status
+### Cox Proportional Hazards Model
 
-Methods Used
-Kaplan–Meier Analysis
+- Identified significant risk factors
+- Estimated Hazard Ratios (HR)
+- Evaluated effect of clinical variables on survival
 
-Estimated survival probability
+---
 
-Generated survival curves
+## Tools and Packages
 
-Cox Proportional Hazards Model
+Software: R Programming
 
-Identified significant predictors
+Libraries Used:
 
-Calculated Hazard Ratios (HR)
+- survival
+- survminer
 
-Interpreted risk factors
+---
 
-Tools and Software
+## Repository Files
 
-R Programming
+survival_Project.R → Survival analysis code  
+Breast Cancer METABRIC.csv → Dataset  
+Survival_Project.pptx → Project presentation  
 
-survival package
+---
 
-survminer package
+## Key Findings
 
-Files in Repository
+- Age significantly affects survival
+- Higher tumor grade increases risk of death
+- Survival probability decreases over time
+- Cox model identified important prognostic variables
 
-survival_Project.R → R code
+---
 
-Breast Cancer METABRIC.csv → Dataset
+## Skills Demonstrated
 
-Survival_Project.pptx → Project presentation
+- Survival Analysis
+- Kaplan–Meier Method
+- Cox Proportional Hazards Model
+- Hazard Ratio Interpretation
+- Clinical Data Analysis
+- R Programming
 
-Key Results
+---
 
-Age and tumor grade significantly affected survival
+## Author
 
-Higher tumor grade showed increased hazard
-
-Kaplan–Meier curves showed survival differences
-
-Author
-
-Monu Prajapati
-Biostatistician
+Monu Prajapati  
+Biostatistician  
 Ahmedabad, India
+
+GitHub: https://github.com/Monu7433
+
+---
+
+## Project Purpose
+
+This project was created to demonstrate survival analysis skills relevant to biostatistics, clinical research, and statistical programming roles.
